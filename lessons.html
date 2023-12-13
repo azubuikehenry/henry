@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Components / Accordion - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Ozioma</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Azubuike Henry</span>
+          </a>
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-house-door"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Music Theory</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="lessons.html" class="active">
+              <i class="bi bi-circle"></i><span>Lessons</span>
+            </a>
+          </li>
+          <li>
+            <a href="chordedsongs.html">
+              <i class="bi bi-circle"></i><span>Chorded Songs</span>
+            </a>
+          </li>
+          <li>
+            <a href="stuart.html">
+              <i class="bi bi-circle"></i><span>1500 Progressions</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Music Theories Nav -->
+
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-instagram"></i><span>Music. Live</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <i class="bi bi-circle"></i><span>Gospel Videos</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts.html">
+              <i class="bi bi-circle"></i><span>Secular Vudeos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Music. Live Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-headset"></i><span>Video Tutorials</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="piano.html">
+              <i class="bi bi-circle"></i><span>Piano</span>
+            </a>
+          </li>
+          <li>
+            <a href="drum.html">
+              <i class="bi bi-circle"></i><span>Drum</span>
+            </a>
+          </li>
+          <li>
+            <a href="bassguitar.html">
+              <i class="bi bi-circle"></i><span>Bass Guitar</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Video Tutorials Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-camera"></i><span>Graphic Design</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>Print Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Photography</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Graphic Design Nav -->
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Blog</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="#">
+              <i class="bi bi-circle"></i><span>Coming Soon</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-circle"></i><span>Coming Soon</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-circle"></i><span>Coming Soon</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Blog Nav -->
+
+      <li class="nav-heading">Pages</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Harmony</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="ozioma.html">Dashboard</a></li>
+          <li class="breadcrumb-item">Music Theory</li>
+          <li class="breadcrumb-item active">Harmony</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Music Theory</h5>
+
+
+
+
+
+              <!-- Harmony Starts Here -->
+
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      MINOR 7(b5) CHORD
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>THE MINOR 7(b5) OR HALF-DIMINISHED CHORD</strong> <br></br>
+First of all we need to understand that the two names: either m7(b5) or Half-Diminished indifferently refer to the exact same chord. It really is just a matter of semantics or personal choice...
+<p>Let's examine the chord:</p>
+Built on a C root, we have: C Eb Gb Bb, respectively the Root, the m3, the dim 5, and the m7. In a chart it may be found written as Cm7(b5) or as CØ </p>
+We have three basic (but a bit conflicting) ways to look at the chord:
+<br>1.     We can see it as a Minor 7th chord of which the Fifth is lowered by a 1/2 step-- that is why some people call it a m7(b5) chord.
+It should be noted here that the Half-Diminished chord pretty much always functions as a ii of something (often a ii of iii, or ii of ii) which is why it seems convenient to think of it as a variation of a ii chord-- hence the appellation m7(b5).
+<br>2.     The 4 notes of the Half-Diminished chord are also the notes of an inverted Minor 6 chord (third inversion). For instance:
+<br>Cm7(b5) = Ebm6 with the 6th in the bass (sometimes written as Ebm6/C or simply Ebm/C)
+<br>Which means that in the key of Db, Cm7(b5) is both vii and/or an inversion of ii... but it is also ii of vi...
+<br>3.     Finally, another perspective is that we can see our chord as a Diminished chord of which the Seventh is raised by a 1/2 step-- that is why some other people prefer to call it a Half-Diminished chord. By the way, remember that the 7th of a Diminished chord is actually a M6th...
+<br>Since the chord is built on a Diminished Triad (C Eb Gb) it seems that it would make sense to think of it as belonging to the Diminished family.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      HARMONY
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>FUNCTIONAL HARMONY</strong> <br></br>
+Now, with those considerations out of the way, where can we find the m7(b5) or Half-Diminished chord?<br>
+When deriving the diatonic seventh chords from the 4 Parent Scales (also called Source Scales: see my other article on Chords & Scales) we will find our chord as:<br>
+The vii chord in Major, which is also the ii chord in its relative Minor (Natural Minor scale).
+<ul>
+<li>The ii chord in Harmonic Minor.</li>
+<li>The ii chord in Harmonic Major.</li>
+<li>The vi and vii chords in Melodic Minor.</li></ul>
+If we look at a simple turnaround in a minor key, we generally expect to find:
+<ul>
+<li>im6 - vim7(b5) - iim7(b5) - V7</li>
+<li>In Cm this progression would give us:</li>
+<li>Cm6 - Am7(b5) - Dm7(b5) - G7</li></ul>
+Let's look at some other examples: <br>
+<ul><li>In the tune "Autumn Leaves" (in the key of Gm) the Am7(b5) in the 5th measure is both the vii in Bb and the ii in Gm (the relative minor). Such a chord is known as a "pivot chord" because it serves a function in the key that it is leaving, as well as a function in the key that it is entering. A "pivot chord" usually makes a modulation less abrupt.</li>
+<li>In "All The Things You Are" (in the key of Ab) the F#m7(b5) in the 21st measure is also a "pivot chord". It is the vii in G (the key that is is leaving) as well as the ii in E (the key that it is entering). Some of you might ask why the ii of a Major key such as E can be a Half-Diminished chord when it should be a simple m7 chord? It is what we call a "borrowed" chord: we can see it as coming from either the parallel key of Em, or even from the E Harmonic Major diatonic system. The main reason anyway is that the F#m7(b5) achieves a smoother modulation from G to E.</li></ul>
+</p>
+<b>USING THE CHORD AS A SUBSTITUTION</b></p>
+A simple substitution is to turn the m7 of a ii-V7 into a Half-Diminished chord. The flatted 5th provides a peculiar tension without truly altering the quality of the chord.<br>
+If and when the melody allows it, a biim7(b5) can be substituted for a IMaj7 chord. In "Meditation" by Antonio Carlos Jobim (in the key of C) an F#m7(b5) can be used instead of the usual FMaj7 for the first two measures of the bridge. Think about it: F#m7(b5) and FMaj7 have no less that 3 notes in common!
+</p>
+<b>USING THE CHORD AS AN UPPER-STRUCTURE:</b></p>
+An upper-structure is a chord or an arpeggio that can be played OVER another chord (and not necessarily INSTEAD of the original chord). The chosen upper-structure will be played as a chord when comping, or as an arpeggiated single-note line when improvising.<br>
+Remember that a Half-Diminished chord is an inversion of a m6 chord. When playing the i chord in a Minor key (Tonic Minor) you can play a Half-Diminished chord from the 6th of that chord.<br>
+Ex. for Dm6 play Bm7(b5)</p>
+The most interesting uses of the Half-Diminished chord as an upper-structure are found over Dominant chords:
+<ul>
+<li>For C7(9) play Em7(b5)           (Half-Diminished upper-structure from the 3rd of the dominant).</li>
+<li>For C+7(b9) play Bbm7(b5)          (Half-Diminished upper-structure from the 7th of the dominant).</li>
+<li>For C7(#9 #11) play Cm7(b5)          (Half-Diminished upper-structure from the Root of the dominant).</li>
+<li>For C7(#9 13) play Am7(b5)             (Half-Diminished upper-structure from the 13th of the dominant).</li>
+<li>For C7(#11 13) play F#m7(b5)         (Half-Diminished upper-structure from the #11th of the dominant).</li>
+<li>For C7(b9 #9 #11 13) play D#m7(b5)  (Half-Diminished upper-structure from the #9th of the dominant).</li>
+</ul></p>
+<b>SUBSTITUTIONS FOR THE HALF-DIMINISHED CHORD</b></p>
+In the context of a iim7(b5)-V7 here are two common (but interesting) diatonic substitutions for the ii chord:
+<ul>
+<li>At the very beginning of "Night & Day" instead of Dm7(b5) - G7 we can substitute AbMaj7 - G7.<br>
+The formula is to play a Maj7 chord from the b5 of the iim7(b5).</li>
+<li>At the very beginning of "I Love You" instead of Gm7(b5) - C7 we can substitute Bbm7(9) - C7.<br>
+The formula is to play a m7 chord from the m3 of the iim7(b5).</li></ul>
+Both examples work nicely because the V7 chord is approached either by a 1/2 step (down) or by a whole-step (up) -- two pleasing root movements which also break the monotony of a bass moving in perfect fourths.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       bVII7 CHORD
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong> DOMINANT 7 CHORD</strong> <br></br>
+Relax! The name is actually more intimidating than the chord itself! So let's see: what is that unfriendly sounding name trying to tell us?<br>
+Simply that the bVII7 chord is nothing more than a Dominant chord (7) that is built on the bVII degree of the key (Flat Seven aka the Subtonic).<br>
+In a Major key, bVII is just a half-step below vii. If we are in the key of C, the bVII7 chord is Bb7. It is borrowed from the parallel key of C minor (bVII being the 7th degree of C Natural Minor).<br>
+Our bVII7 chord has a clearly-defined purpose in life: after a temporary modulation (usually to the IV, and sometimes to the ii) the bVII7 chord will take us back to the original key. It basically works as a short-cut: straight back into the I Chord!!!<br>
+As it is the case with most dominants, bVII7 is often preceded by its related iim7 chord. In the key of C, Bb7 may be preceded by Fm7. Nothing extraordinary so far: Fm7 - Bb7 looks like an usual ii-V in Eb. Except that here, we are not resolving to EbMaj7... but to CMaj7, the I key.<br>
+Let's look at some Standard Tunes where we can find examples of the bVII7 chord:<p></p>
+
+<strong>Note</strong> that the bVII7 can sometimes be played as a IV6.<br>
+<strong>Examples:</strong> <br>
+Bb7 (Bb D F Ab) = Fm6 (F Ab C D). The two chords are pretty close since they have 3 notes in common. Remember that Fm6 is Bb7(9) with the 5th in the bass.
+<ul>
+<li>"Out Of Nowhere" (in G): F7(#11) or Cm6 are interchangeable. Cm6 makes more sense when continuing on to Bm7 (iiim7) because of the 1/2 step root movement.</li>
+<li>"Rhythm Changes" (in Bb): Ab7 or Ebm6.</li>
+<li>"All Of Me" (in C): Bb7 or Fm6. Here are two common ways to handle that particular section:<br>
+FMaj7 | Fm6 or Fm7 | Em7 | A7 | etc... or FMaj7 | Fm7 Bb7| CMaj7 | A7 |</li>
+</ul>
+The bVII7 occurs after a temporary modulation to the II (Supertonic). The purpose is still to take us back to the I chord-- swiftly and efficiently. Notice that ii7 happens to be the relative minor of IV...?
+<ul>
+<li>"Stella By Starlight" (Ab7)</li>
+<li>"It Could Happen To You" (in Eb: Db7)</li>
+<li>"I Should Care" (Bb7)</li>
+</ul>
+The bVII7 may also function as the Tritone Substitution of V7 of VI. This is the case when we approach the VI7 chord from a 1/2 step above, instead of from a P5th above. I find it easier to think of the chord as bII7 of VI.
+<ul>
+<li>In "The Days Of Wine And Roses" (measure 2) Eb7 goes down a 1/2 step to resolve into the VI7 chord: it is the bII7 of VI.</li>
+<li>The tune "Donna Lee" (in Ab) will provide an example of both the bVII7 and the bII7/VI functions, as we find the chord Gb7 in 2 rather distinct situations:</li>
+</ul> </p>
+<strong>SCALE OF CHOICE FOR THE bVII7:</strong> <br>
+The preferred scale for the bVII7 chord is MIXOLYDIAN #4 aka LYDIAN-DOMINANT. It is the 4th Mode of Melodic Minor and its extensions are as follows: 7(9 #11 13). The #11 is particularly important because it is diatonic to the key, as are the other 2 extensions. An Altered Dominant sound would not be appropriate for neither a bVII7 nor a bII7/VI.
+</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      MIMOR CHORD & KEY
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>MINOR CHORDS AND MINOR KEYS (or the m7 versus the m6...)</strong> <br></br>
+Yes, yes, some players are a little confused as to what they should play when they see a Minor chord symbol on a chart. The reason could be that some Real Books do not always consistently acknowledge those different types of Minor chords. For example, it is common on many lead-sheets (the Jamey Aebersold Play along charts come to mind...) to just find an Am or A- symbol, and we are basically supposed to guess if we should use a minor Triad, an Am7 or an Am6... and some players solve the problem by playing m7 chords everywhere-- which is not a good idea, as we are about to see!<br>
+There are however two very distinct families of Minor chords:
+<ol>
+<li>The "Tonic Family": those include mMaj7 chords and more commonly m6 chords. Basically, if the tune is in a Minor key, then the i chord will be a mMaj7 or a m6 chord. Note that there are exceptions to this rule, as we will see later.</li>
+<li>The "Other Family": those other Minor chords are the m7 (found as a ii chord, iii chord , or vi chord in a Major key) and the m7b5 or half-diminished (found as a ii chord or a vi chord in a Minor key).</li>
+</ol>
+It is important to understand that in a Minor key we should generally not play a common m7 chord in the place of a i chord.<br>
+Yes, the i chord is a m7 chord if we harmonize the Natural Minor scale, but that scale does nor function well harmonically-- at least not in the context of our Jazz Standards. The i chord comes from either the Harmonic Minor scale or the Melodic Minor scale. In both cases then, the i chord is a mMaj7 and certainly not a m7. The problem though is that a mMaj7 chord usually sounds too "exotic" or completely out of place in the context of your average Standard tune... It is preferable then to play a m6 chord instead of a mMaj7. The m6 is a lot more stable, and basically sounds like "home"<br>
+Here are some tunes where the m6 is appropriate as a I chord:<br>
+"Alone Together"<br>
+"Yesterdays"<br>
+"What Is This Thing Called Love" (first cadence)<br>
+"Summertime"<br>
+"Golden Earrings"<br>
+"Angel Eyes"<br>
+"Minority"<br>
+"How Deep Is The Ocean?" (first chord)<br>
+"Besame Mucho"<br>
+"You Don't Know What Love Is"<br>
+Brazilian music is fond of m6 chords:<br>
+"Corcovado" (the first chord is sometimes written as D7/A but it still is an Am6)<br>
+"How Insensitive"<br>
+"Black Orpheus"<br>
+"A Felicidade"<br></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      MODULATION
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>MODULATION</strong> <br></br>
+There are many tunes that start in a Major key and then modulate to a Minor key at some point-- usually to the relative Minor. For example in the tune "There Is No Greater Love" (AABA form) the A section is in the key of Bb. For the B section (bridge) we modulate to the key of Gm. It is a temporary modulation of course, but we are clearly in a new key: the Gm chord is a i chord and not the vi chord in Bb. Therefore, we should play a Gm6 and not not a Gm7.<br>
+In "Airegin" by Sonny Rollins the opposite process takes place: the tune starts in the key of Fm and after a series of unexpected temporary modulations, finally arrives to its relative Major, Ab (at the very end of the tune).<br>
+Many tunes start in a Minor key to arrive to the relative Major:<br>
+"In Walked Bud"<br>
+"You'd Be So Nice To Come Home To"<br>
+"You Don't Know What Love Is" (the bridge is in the relative Major)<br>
+"How Deep Is The Ocean?"<br>
+"Cry Me A River"<br>
+"My Funny Valentine"<br>
+Some people would rather think that an entire tune is in a Major key and that the Minor segment is the vi chord. A ii7-V7 of vi should be a clear indication that we are gravitating around the relative Minor. There is a huge difference between the very first chord of "All The Things You Are" (vi7 of Ab) and the very first chord of "How Deep Is The Ocean ?" (i of Cm).<br>
+In "Autumn Leaves" (in Gm) or in "I Hear A Rhapsody" (in Eb) we are actually thrown back and forth between the relative Major and the relative Minor keys. When in the Minor section(s) of the tune, as brief as they may be, we should play a m6 chord on the i chord.<br>
+In "These Foolish Things" (in Eb) the bridge modulates to a Minor key (Gm) but that time it is not the relative minor, but the Mediant. There again, even if it is built on the iii chord in Eb, we are unequivocally in the key of Gm, and therefore a Gm7 would not be appropriate. Interestingly enough, the next section of the bridge modulates then to the relative Major of Gm which is Bb. Finally, we manage to go back to the original key of Eb for the last A section.<br>
+A modulation to the Mediant also happens in "My One And Only Love".<br>
+A tune can start in a Minor key and eventually end with a Major Tonic chord--either at the very end of the tune, or just at the end of a section. It is what the French call the "Tierce de Picardie" or "Picardy Third".<br>
+In the Jazz literature the device is found in:<br>
+"You And The Night and The Music"<br>
+"Alone Together"<br>
+"Round Midnight"<br>
+"Close Your Eyes"<br></br>
+
+In Pop Music, we have:<br>
+"Killing Me Softly With His Song"<br>
+"Michelle" (by The Beatles)</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      MMaj7
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>THE MINOR MAJOR SEVENTH CHORD (MMAJ7)</strong> <br>
+Some compositions do call for a mMaj7 in the place of the tonic. There are not very many though, and the chord will always be used to convey a particular feeling.<br>
+For instance, let's take a look at the tune "Solar" by Miles Davis. There is a B natural note in the first measure of the melody. We certainly could play a Cm6 there, but the mMaj7 will add that special effect, contributing effectively to the unusual mood of the piece. In the original version of 1954, both Miles and Horace Silver (on the piano) make sure they hit the M7 of the chord a few times.</p>
+
+Other tunes making great use of the mMaj7 chord would be:<br>
+"Nica's Dream" (Horace Silver again...)<br>
+"Chelsea Bridge"<br>
+"Invitation" (very last chord: EbmMaj7)<br>
+
+<strong>The m7 as a i7 chord</strong> <br>
+Now, In the context of some more modern tunes, we may find a m7 used as a i chord. The scale associated with the chord will then be generally the Dorian mode, but it can also be the Natural Minor/Aeolian. Some tunes falling in that category are:<br>
+"Footprints"<br>
+"So What/Impressions"<br>
+"Recorda-Me"<br>
+"Blue Bossa"<br>
+"Song For My Father" (Aeolian)<br>
+"Sugar" (Aeolian or Phrygian ?)<br>
+"Minor Blues"<br></br>
+
+Some tunes like "Summertime" or "Invitation" may be played either modally or more traditionally. John Coltrane of course gave us amazingly refreshing versions of those two songs. The Modal approach will bring a more modern and more open sound with the use of the Dorian mode along with the m7 chord. Quartal voicings (stacked-up 4ths) work especially well there.<br>
+"Blue Bossa" can use either a m6 chord or a m7 chord as its first chord too. One way to look at the first two measures of the tune would be:
+<ul>
+<li><b>| Cm6 | Cm6 C7 |</b></li>
+</ul>
+The C7 accommodates the Bb in the melody and sets up the Fm7 coming in the third measure. When deciding what kind of Minor chord to play over a i chord, it is a good idea to check if there are any 7ths in the melody-- and if so, are they Major 7ths or Minor 7ths ?<br>
+For instance, in "This Can't Be Love" which has an AABA form, the A sections are in the key of F. The bridge then modulates to the relative minor (Dm) but the melody note over that chord is a C Natural (it also happens to be a whole note...). Our Dm chord then needs to be played as a Dm7.<br></br>
+
+<strong>Movement Within A Tonic Minor Chord:</strong> <br>
+If we stay on a Tonic Minor chord for a few measures, it is nice to create some movement within the chord with a chromatic line. We have the choice between 2 options:<br>
+<b>Option A:</b> The line goes down chromatically from the Root. This is the "My Funny Valentine" effect (at least, that's what I call it). The chords become:<br>
+| Cm | Cm/B | Cm/Bb | Cm/A |<br>
+Some tunes using that option are:<br>
+"My Funny Valentine"<br>
+"In Walked Bud/Blue Skies"<br>
+"All Or Nothing At All"<br>
+"'Round Midnight"<br>
+<b>Option B:</b> The line goes up chromatically from the 5th. This is known as the "James Bond " effect. Now the chords are:<br>
+| Cm | Cm+ | Cm6 | Cm+ |<br>
+(in case you are wondering, Cm+ is a Cm triad with a raised 5th. It is sometimes written as Ab/C or even as AbMaj7/C)<br>
+Some tunes using that option are:<br>
+"Cry Me A River"<br>
+"Out Of This World"<br></br>
+
+Some tunes handle both directions well: in "My Heart Belongs To Daddy" I like to play option A during the first half of the song, and then option B for the second half. The tune finally climaxes when it modulates to the parallel Major key (C Major) to ultimately resolve back to the original key of Cm in the last few bars.<br>
+We should not forget that there are some situations when a plain Minor Triad will work just fine as a i chord. I would stay away from the close voicings which can sound too plain and simple, but the open ones (in various inversions) generally blend in well with the rest of the progression.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      CHORD SCALES
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>CHORDS-SCALES</strong> <br></br>
+
+I should actually start this essay with a disclaimer, as those of you who have already heard me talk about scales know that I have reservations when it comes to learning Improvisation while running Modes up and down... There are some definitely more useful approaches to playing over changes (like chord-tones, arpeggios, guide-tones, etc.) yet, everybody talks about "the Modes" as if they were the most important thing to know when learning to play Jazz !!!<br>
+With that said, however, it is still important to understand the relationship between Chords and Scales... so let's see what we can learn here.<br>
+First of all, here are a few considerations about what we call the Modes:<br>
+Modes are generated by "parent scales" (also called "source scales"). There are 4 such scales:<br>
+1. The MAJOR SCALE which generates the following Modes:<ul>
+<li>IONIAN: Maj7(9 11 13)</li>
+<li>DORIAN: m7(9 11 13)</li>
+<li>PHRYGIAN: sus7(b9 #9 b13)</li>
+<li>LYDIAN: Maj7(9 #11 13)</li>
+<li>MIXOLYDIAN: 7(9 11 13)</li>
+<li>AEOLIAN: m7(9 11 b13)</li>
+<li>LOCRIAN: m7(b5)(b9 11 b13)</li></ul></br>
+2. The MELODIC MINOR SCALE which generates the following Modes:<ul>
+<li>DORIAN #7: mMaj7(9 11 13)</li>
+<li>PHRYGIAN #6: sus7(b9 #9 13)</li>
+<li>LYDIAN-AUGMENTED: +Maj7(9 #11 13)</li>
+<li>MIXOLYDIAN #4: 7(9 #11 13)</li>
+<li>AEOLIAN-DOMINANT: 7(9 11 b13)</li>
+<li>LOCRIAN #2: m7(b5)(9 11 b13)</li>
+<li>ALTERED: +7(b9 #9 #11)</li></ul>
+3. The HARMONIC MINOR SCALE which generates the following Modes:<ul>
+<li>AEOLIAN #7: mMaj7(9 11 b13)</li>
+<li>LOCRIAN #6: m7(b5)(b9 11 13)</li>
+<li>IONIAN-AUGMENTED: +Maj7(9 11 13)</li>
+<li>DORIAN #4: m7(9 #11 13)</li>
+<li>PHRYGIAN-DOMINANT: 7(b9 11 b13)</li>
+<li>LYDIAN #2: Maj7(#9 #11 13)</li>
+<li>ALTERED bb7: +6(b9 #9 #11)</li></ul>
+4. The HARMONIC MAJOR SCALE which generates the following Modes:<ul>
+<li>IONIAN b6: Maj7(9 11 b13)</li>
+<li>DORIAN b5: m7(b5)(9 11 13)</li>
+<li>PHRYGIAN b4 : 7(b9 #9 b13)</li>
+<li>LYDIAN-MINOR: mMaj7(9 #11 13)</li>
+<li>MIXOLYDIAN b2: 7(b9 11 13)</li>
+<li>LYDIAN-AUGMENTED #2: +Maj7(#9 #11 13)</li>
+<li>LOCRIAN-DIMINISHED: dim7(b9 11 b13)</li></ul> </p>
+
+Each one of the parent scales generates 7 diatonic Modes, so we already have 28 modes to deal with. (By the way, yes, I'm assuming that you do know how modes are extracted from their respective parent scales... if you don't, please ask).</br>
+Other important scales are 3 symmetrical ones: Whole-Tone, Diminished and Augmented-- but those do not exactly generate modes, so I won't discuss them in this article).</br>
+For every mode listed, I used a chord symbol consisting of a chord type (4 notes) complemented by extensions written in parentheses (3 notes). The sum of all 7 notes gives us the complete mode. I find that system very practical, as we get to memorize easily the chord/scale relationship associated with each mode.</br>
+Here is an example: for Ionian, I prefer to think: Maj7(9 11 13)</br>
+Rather than: R, M2, M3, P4, P5, M6, M7</br>
+Even though the chord built on the 3rd degree of the Major Scale is a Minor 7 chord, it is preferable to think of the corresponding mode (Phrygian) as having a sus7 sound. The 7 notes of the scale are the same, but we will simply organize them slightly differently. The sus7 chord is: R, P4, P5, m7 (no 3rd) and the remaining 3 extensions are now: b9, #9, b13. In other words, what was previously the m3 is now labeled a #9.</br>
+Same approach with the 2nd mode from Melodic Minor (Phrygian #6).</br>
+Here is another discrepancy: the chord built on the 7th degree of the Melodic Minor Scale is a Minor 7(b5), yet the corresponding mode (the Altered scale) is used over a Dominant 7 chord. The symbol for the mode is: +7(b9 #9 #11) which tells us that it fits a +7 chord (R, M3, +5, m7) and has the following extensions: b9 #9 #11.</br>
+Note: did anyone ever tell you that the Altered scale was actually the equivalent of IONIAN #1 ? Think about that !!! For example, G# ALTERED-DOMINANT is the 7th Mode from A Melodic Minor. The notes of that scale also happen to be the notes of a G Major Scale of which the root (G) would have been sharped...</br>
+As for common synonyms, you need to know that the ALTERED-DOMINANT (or ALTERED) SCALE is also referred to as SUPERLOCRIAN, or DIMINISHED/WHOLE-TONE.</br>
+DORIAN #7 (aka the MELODIC MINOR SCALE) is sometimes called JAZZ MINOR.</br>
+MIXOLYDIAN #4 is often called LYDIAN DOMINANT.</br>
+It is all the same thing. You call them what you want: Enigmatic, Dystrophic, Phthisic Minor, Trans-Sylvanian, Equa-Dorian...<br></br>
+
+MAJOR 7TH:<ul>
+<li>IONIAN: Maj7(9 11 13)</li>
+<li>IONIAN b6 aka Harmonic Major: Maj7(9 11 b13)</li>
+<li>LYDIAN: Maj7(9 #11 13)</li>
+<li>LYDIAN #2: Maj7(#9 #11 13)</li>
+<li>IONIAN-AUGMENTED: +Maj7(9 11 13)</li>
+<li>LYDIAN-AUGMENTED: +Maj7(9 #11 13)</li>
+<li>LYDIAN-AUGMENTED #2: +Maj7(#9 #11 13)</li>
+MINOR 7TH:
+<li>DORIAN: m7(9 11 13)</li>
+<li>DORIAN #4: m7(9 #11 13)</li>
+<li>AEOLIAN: m7(9 11 b13)</li>
+MINOR/MAJOR 7TH:
+<li>DORIAN #7 aka Melodic Minor: mMaj7(9 11 13)</li>
+<li>AEOLIAN #7 aka Harmonic Minor: mMaj7(9 11 b13)</li>
+<li>LYDIAN MINOR: mMaj7(9 #11 13)</li>
+HALF-DIMINISHED:
+<li>LOCRIAN: m7(b5)(b9 11 b13)</li>
+<li>LOCRIAN #2: m7(b5)(9 11 b13)</li>
+<li>LOCRIAN #6: m7(b5)(b9 11 13)</li>
+<li>DORIAN b5: m7(b5)(9 11 13)</li>
+DOMINANT 7TH:
+<li>MIXOLYDIAN: 7(9 11 13)</li>
+<li>MIXOLYDIAN #4: 7(9 #11 13)</li>
+<li>MIXOLYDIAN b2: 7(b9 11 13)</li>
+<li>PHRYGIAN-DOMINANT: 7(b9 11 b13)</li>
+<li>PHRYGIAN b4: 7(b9 #9 b13)</li>
+<li>ALTERED: +7(b9 #9 #11)</li>
+SUSPENDED 7TH:
+<li>PHRYGIAN: sus7(b9 #9 b13)</li>
+<li>PHRYGIAN #6: sus7(b9 #9 13)</li></ul> </p>
+
+If we want to improvise over a simple ii-V7-I (let's say Dm7-G7-CMaj7 in the key of C) the simplest approach would be to play: <ul>
+<li>over Dm7: D DORIAN</li>
+<li>over G7: G MIXOLYDIAN</li>
+<li>over CMaj7: C IONIAN</li> </ul>
+Even though everything will sound OK, there is definitely not much excitement going on because all 3 Modes happen to be diatonic to the key of C. In fact, when playing over this chord progression, players with limited experience will "noodle around" the C Major scale and find comfort in the fact that all of the notes "work" over all 3 chords...<br>
+Now try to play this instead:
+over Dm7: D DORIAN #11 (4th Mode from A Harmonic Minor)
+over G7: G ALTERED (7th Mode from Ab Melodic Minor)
+over CMaj7: C LYDIAN (4th Mode from G Major)
+None of those 3 modes are related to each other, and none of them are diatonic to our original key of C Major either, yet the colors achieved are very fitting.<br></br>
+
+Here is precisely why we should understand and master the Modes: we can play a completely different sound over each chord of a progression, as we borrow from various parent scales-- and not necessarily from the main tonal center.<br>
+Taken from the previous list of "useful Modes" organized by chord types, here are a few more colorful Modes I would encourage you to experiment with over Dm7-G7-CMaj7 (we are still in the key of C Major):<br>
+Over Dm7:<ul>
+<li>D DORIAN #11 (4th Mode from A Harmonic Minor)</li>
+<li>D AEOLIAN (6th Mode from F Major)</li>
+over G7:
+<li>G ALTERED (7th Mode from Ab Melodic Minor)</li>
+<li>G MIXOLYDIAN b2 (5th Mode from C Harmonic Major)</li>
+<li>G PHRYGIAN b4 (3rd Mode from Eb Harmonic Major)</li>
+<li>G PHRYGIAN-DOMINANT (5th Mode from C Harmonic Minor)</li>
+over CMaj7:
+<li>C LYDIAN (4th Mode from G Major)</li>
+<li>C LYDIAN #2 (6th Mode from E Harmonic Minor)</li>
+<li>C LYDIAN-AUGMENTED #2 (6th Mode from E Harmonic Major)</li></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      THE WRONG SCALE
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>THE WRONG SCALE IN THE RIGHT PLACE</strong> <br></br>
+
+The first thing that is usually taught in a Jazz Improv class is to match a chord with its appropriate scale or Mode. For example, when looking at a Dm7 chord, we are usually told to play the D Dorian Mode. For a FMaj7 chord it will be F Ionian or even F Lydian, etc... All the notes of the chord (the chord-tones) are supposed to be found in the Mode that will be used for improvisation. It all sounds right, and everything is wonderful...<br>
+But what if there were other ways to use those modes ? What would happen for instance, if we forced the "wrong" mode over a given chord ?
+For instance, we think of the DORIAN Mode as a scale to play over a Minor 7th chord, right ? Well, let's expand our horizon, and see what happens if we play it over a Dominant 7th chord...<br>
+So for a G7, we now have G DORIAN: G, A, Bb, C, D, E, F.<br>
+The notes give us: R, 9, #9, 11, P5, 13, m7.<br>
+All we have to do to justify our choice is call the Bb the #9 (A#) instead of the m3, and just say that the scale does not contain a 3rd-- it is as simple as that!<br>
+We have just stepped into a new world here: if we accept the fact that all of the 4 chord-tones do not have to be in the Mode we choose to play over a given chord, we are seriously broadening our choices. We have now some more "outside" colors to add to our lines.<br>
+Here are some of the "wrong" modes we can play over a G Dominant 7th chord:<ul>
+<li>G DORIAN (R, 9, #9, 11, P5, 13, m7)</li>
+<li>G PHRYGIAN (R, b9, #9, 11, P5, b13, m7)</li>
+<li>G AEOLIAN (R, 9, #9, 11, P5, b13, m7)</li>
+<li>G LOCRIAN (R, b9, #9, 11, b5, b13, m7)</li>
+</ul>
+Those 4 Modes are all generated by the Major scale.<br>
+When you realize that we can (and will...) also use some of the modes generated by the other Parent scales (see my article on Chords And Scales for a list of the Modes generated by the 4 Parent Scales) you will get a glimpse of the many options we now have over a given chord. Mamma mia!<br>
+The new rule for selecting a Mode to play over a Dominant 7th chord is that the Mode simply needs to have a m7 in it. This means that all of the m7, m7(b5), dim7, and sus7 Modes will do. How many can you count ?<br>
+Some of my favorite ones are:<ul>
+<li>PHRYGIAN #6 (R, b9, #9, 11, P5, 13, m7)</li>
+<li>LOCRIAN #2 (R, 9, #9, 11, b5, b13, m7)</li>
+<li>LOCRIAN #6 (R, b9, #9, 11, b5, 13, m7)</li>
+</ul>
+Here are some of the "wrong" modes we can play over a D Minor 7th chord:<ul>
+<li>D DORIAN #7 (aka D Melodic Minor) (R, 9, m3, 11, P5, 13, M7)</li>
+<li>D AEOLIAN #7 (aka D Harmonic Minor) (R, 9, m3, 11, P5, b13, M7)</li>
+<li>D LYDIAN-MINOR (R, 9, m3, #11, P5, 13, M7)</li>
+Our new rule here is that we will accept the M7 in place of the m7. It is actually a nice tension note against any Minor 7th Chord.<br>
+We may also experiment with any of the m7(b5) Modes against a regular m7 chord. The b5 will merely be an alteration of the 5th.<br>
+Are there any "wrong" modes to play over a C Major 7th chord ? Well, if you insist...<ul>
+<li>C DORIAN #7 (aka C Melodic Minor) (R, 9, #9, 11, P5, 13, M7)</li>
+<li>C AEOLIAN #7 (aka C Harmonic Minor) (R, 9, #9, 11, P5, b13, M7)</li>
+<li>C LYDIAN-MINOR (R, 9, #9, #11, P5, 13, M7)</li>
+</ul>
+Granted, those last 3 are to be handled with care... Don't expect a particularly strong resolution on the IMaj7 Chord with those modes, as they will sound quite "outside". None of them has a M3 !!!<br>
+The better situations for our new "wrong" modes are definitely found over Dominant 7th Chords: arguably, any note could be justified against a Dominant chord... The point here is that those "any notes" will sound organized (and therefore more acceptable to the ear) when presented as a Mode coming from the 4 Parent Scales-- it gives them more credibility ! (did I mean more credentials ?)</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      PENTATONIC SCALES
+                    </button>
+                  </h2>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>CREATING SOME PENTATONIC SCALES</strong> <br></br>
+
+Here is an easy way to generate some fresh Pentatonic scales!
+Start with a 4 note-arpeggio. Let's take Dm7: D F A C</br>
+All we need to do is insert an extension note between two of the chord tones. That extension note may be a 9th, an 11th, or a 13th.</br>
+Here are the possible results:<ul>
+<li>D (E) F A C</li>
+<li>D F (G) A C (this one is the traditional Minor Pentatonic)</li>
+<li>D F (G#) A C</li>
+<li>D F A (Bb) C</li>
+<li>D F A (B) C</li> </ul>
+(note that I avoided the b9 on the minor7th Chord)<br>
+We can use any 4-note arpeggio as the starting point.<br>
+The most possibilities will be found with the Dominant chord. Let's take a basic G7: G B D F<br>
+Here are the Pentatonics:<ul>
+<li>G (Ab) B D F</li>
+<li>G (A) B D F (this one is known as the basic Dominant <li>Pentatonic)</li>
+<li>G (A#) B D F</li>
+<li>G B (C) D F</li>
+<li>G B (C#) D F</li>
+<li>G B D (Eb) F</li>
+<li>G B D (E) F</li> </ul>
+Now, instead of the generic G7 arpeggio used as a starting point, we could use G+7: G B D# F<br>
+We will then get 6 additional Pentatonics:<ul>
+<li>G (Ab) B D# F</li>
+<li>G (A) B D# F</li>
+<li>G (A#) B D# F</li>
+<li>G B (C) D# F</li>
+<li>G B (C#) D# F</li>
+<li>G B D# (E) F</li>
+</ul>
+How about G7(b5): G B Db F?<br>
+Here are the generated Pentatonics:<ul>
+<li>G (Ab) B Db F</li>
+<li>G (A) B Db F</li>
+<li>G (A#) B Db F</li>
+<li>G B (C) Db F</li>
+<li>G B Db (Eb) F</li>
+<li>G B Db (E) F</li> </ul>
+If I counted correctly, that's a total of 19 new Pentatonics for the Dominant chord (7 + 6 + 6 = 19)<br>
+Of course, we are not required to like all of those new scales. Some are quite pleasing and melodic sounding, whereas some other ones are a little harder to accept-- I'm thinking particularly about those that have too many consecutive 1/2 steps for example. In any case, this simple approach should provide some new material to explore. Those Pentatonic scales may be used as Improvisation material (they are part scale and part arpeggio) or even as the basis for Composition. If you feel like exploring the subject, you may want to see Ron Miller's book entitled "Modal Jazz Composition & Harmony Vol.2"-- he has a whole chapter devoted to Composition with Pentatonic Scales.<br>
+I hope you will have fun with this simple (but deliberately limited) method of creating a few new Pentatonic scales from 4-note arpeggios. In case you are wondering, here's why I'm saying that this method is deliberately limited: remember that the wide definition of a Pentatonic Scale is ANY scale that contains 5 notes-- that makes a grand total of 330!!! (thanks to Wayne Krantz for the info)<br>
+Ron Miller limited his list of usable Pentatonics so that there would be no interval greater than a Tritone ("this is to attempt to limit the number of created scales that may have too many adjacent semitones-- any modality within the scale would be too obscure, and the shape of the generated Pentatonic would not be musical."). Meanwhile, his list still has 231 Scales...<br>
+We could also avoid those scales that have an interval wider than the Augmented 2nd-- after all, that is often one of the prerequisites for a legitimate "scale" (see my other article What Is A Scale?)<br>
+As for fingering our new-found modes, the most logical way is to begin with the arpeggio fingerings in all 5 positions (aka the CAGED system) and add the extra note from there. If the extra note in NOT within the usual position, reach for it with the 1st finger when ascending, or with the 4th finger when descending.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingEighteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div><!-- End Accordion without outline borders -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      Ozioma Copyright&copy; 2022
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
